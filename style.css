@@ -2,16 +2,17 @@ html, body
 {
   height: 100%;
   margin: 0;
+  background-color:#470063 100%;
 }
 
-body
-{
-background-image: linear-gradient(to right top, #4c00ff, #0228ff, #0896e7, #79cffd, #ffffff);
-}
+body {
+	text-align: center;
+	background: linear-gradient(to top, #009c41d2 0%, #470063 100%);
+  }
 
 .header
 {
-	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 .header img
 {
@@ -20,7 +21,7 @@ background-image: linear-gradient(to right top, #4c00ff, #0228ff, #0896e7, #79cf
 
 .login_div
 {
-	background: rgba(255,255,255,0.8);float: none;border-radius: 15px;
+	background: rgba(200, 106, 255, 0.8);float: none;border-radius: 15px;
 }
 
 .logo
